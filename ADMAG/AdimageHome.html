@@ -41,25 +41,25 @@
                   alt="ADIMAG Logo"
                 />
 
-                <ul
+                 <ul
                   class="flex flex-wrap gap-10 self-stretch my-auto text-xl font-medium text-center text-white max-md:max-w-full"
                 >
-                  <li class="grow">A ADIMAG</li>
-                  <li>Podcast</li>
-                  <li>Manifesto</li>
-                  <li class="basis-auto">Associados</li>
-                  <li class="basis-auto">Faça parte</li>
+                  <li class="grow"><a href="#adimag">A ADIMAG</a></li>
+                  <li><a href="#podcast">Podcast</a></li>
+                  <li><a href="#manifesto">Manifesto</a></li>
+                  <li class="basis-auto"><a href="#associados">Associados</a></li>
+                  <li class="basis-auto"><a href="#faca-parte">Faça parte</a></li>
                 </ul>
 
+
                 <div
-                  class="flex gap-7 items-start self-stretch my-auto text-lg font-semibold text-black whitespace-nowrap"
-                >
-                  <button
-                    class="flex gap-2.5 justify-center items-center py-4 pr-5 pl-6 bg-green-400 min-h-[51px] rounded-[44px] w-[130px] max-md:px-5"
+                    class="flex gap-7 items-start self-stretch my-auto text-lg font-semibold text-black whitespace-nowrap"
                   >
-                    SIGA-NOS
-                  </button>
-                </div>
+                    <a href="#siga-nos" class="flex gap-2.5 justify-center items-center py-4 pr-5 pl-6 bg-green-400 min-h-[51px] rounded-[44px] w-[130px] max-md:px-5">
+                      SIGA-NOS
+                    </a>
+                  </div>
+
               </nav>
 
               <!-- Hero Title -->
@@ -90,20 +90,21 @@
                   aos grandes projetos de inovação do setor.
                 </p>
 
-                <div
-                  class="flex gap-9 self-start mt-11 text-center max-md:mt-10"
-                >
-                  <button
-                    class="flex flex-col justify-center px-12 py-3.5 text-white whitespace-nowrap border border-solid bg-white bg-opacity-0 border-white border-opacity-30 rounded-[133px] max-md:px-5"
-                  >
-                    Podcast
-                  </button>
-                  <button
-                    class="flex flex-col justify-center px-9 py-3.5 font-semibold text-black bg-green-400 rounded-[133px] max-md:px-5"
-                  >
-                    Faça parte
-                  </button>
-                </div>
+          <div class="flex gap-9 self-start mt-11 text-center max-md:mt-10">
+                    <a
+                      href="#podcast"
+                      class="flex flex-col justify-center px-12 py-3.5 text-white whitespace-nowrap border border-solid bg-white bg-opacity-0 border-white border-opacity-30 rounded-[133px] max-md:px-5"
+                    >
+                      Podcast
+                    </a>
+                    <a
+                      href="#faca-parte"
+                      class="flex flex-col justify-center px-9 py-3.5 font-semibold text-black bg-green-400 rounded-[133px] max-md:px-5"
+                    >
+                      Faça parte
+                    </a>
+                  </div>
+
               </div>
             </div>
           </section>
@@ -212,80 +213,132 @@
                 >
               </h2>
             </div>
-            <div class="ml-5 w-[62%] max-md:ml-0 max-md:w-full">
-              <div
-                class="flex flex-col grow font-medium max-md:mt-10 max-md:max-w-full"
-              >
-                <p class="self-start text-2xl text-white max-md:max-w-full">
-                  O evento que reuniu as lideranças das<br />
-                  15 maiores empresas de agro do Brasil<br />
-                  para premiar suas melhores campanhas.
-                </p>
-                <p class="mt-9 text-lg text-white max-md:max-w-full">
-                  Cada campanha premiada foi apresentada pelos seus próprios
-                  criadores em um material exclusivo com o raio-x de cada
-                  estratégia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+           <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-        <!-- Image Gallery -->
-        <section class="mt-32 w-full max-md:mt-10 max-md:max-w-full">
-          <div class="flex gap-5 max-md:flex-col">
-            <div class="w-[24%] max-md:ml-0 max-md:w-full">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/7b84ab564c9ade1b9891708ef9bc93f779961f7c?placeholderIfAbsent=true"
-                class="object-contain shrink-0 self-stretch my-auto max-w-full aspect-square w-[438px] max-md:mt-10"
-                alt="Event image 1"
-              />
-            </div>
-            <div class="ml-5 w-[52%] max-md:ml-0 max-md:w-full">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/085fadf9f56cd304110900201cf0402e377cc26a?placeholderIfAbsent=true"
-                class="object-contain grow w-full aspect-[1.78] max-md:mt-10 max-md:max-w-full"
-                alt="Event image 2"
-              />
-            </div>
-            <div class="ml-5 w-[24%] max-md:ml-0 max-md:w-full">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/a968db14d134cd864d12237fa88b7e7d0eb44dca?placeholderIfAbsent=true"
-                class="object-contain shrink-0 self-stretch my-auto max-w-full aspect-square w-[438px] max-md:mt-10"
-                alt="Event image 3"
-              />
-            </div>
+<section class="w-full flex justify-center mt-20">
+<div class="swiper mySwiper w-full max-w-[100%] px-4 md:px-10 lg:px-20">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide flex flex-col items-center text-white">
+        <img
+            src="img/7662a8c2-ae0a-4c0b-9c51-78695a1e8e3e.png"
+          class="w-full max-w-[600px] aspect-[1.78] rounded-xl object-cover"
+          alt="Slide 1"
+        />
+       
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide flex flex-col items-center text-white">
+        <img
+          src="img/3f2d9a71-4929-41ca-b1c0-bea52fb47b38.png"
+          class="w-full max-w-[600px] aspect-[1.78] rounded-xl object-cover"
+          alt="Slide 2"
+        />
+        
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide flex flex-col items-center text-white">
+        <img
+          src="img/c5c0a9b9-12a5-4d49-ae0e-7e7930be9cc6.png"
+          class="w-full max-w-[600px] aspect-[1.78] rounded-xl object-cover"
+          alt="Slide 3"
+        />
+        
+      </div>
+
+            <!-- Slide 4 (imagem nova: Cobertura do Anuário 2024) -->
+      <div class="swiper-slide flex flex-col items-center text-white">
+        <img
+          src="img/e6fa3042-a3ff-479c-94ce-9b43cc4208ba.png"
+          class="w-full max-w-[600px] aspect-[1.78] rounded-xl object-cover"
+          alt="Slide 4"
+        />
+        
+      </div>
+
+    </div>
+
+    <!-- Paginação -->
+    <div class="swiper-pagination mt-4"></div>
+
+    <!-- Navegação -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 40,
+    loop: false,
+    centeredSlides: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 1.2,
+      },
+      1024: {
+        slidesPerView: 1.5,
+      }
+    }
+  });
+</script>
+
           </div>
         </section>
 
         <!-- Statistics Section -->
-        <section
-          class="self-end mt-28 w-full max-w-[1720px] max-md:mt-10 max-md:max-w-full"
-        >
-          <div
-            class="flex flex-wrap gap-5 justify-between text-3xl tracking-tighter leading-9 text-white uppercase max-md:max-w-full"
-          >
-            <article
-              class="flex flex-col justify-center items-start px-11 py-9 rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5"
-            >
-              <h3>15 marcas<br />icônicas DO<br />AGRO</h3>
-            </article>
-            <article
-              class="flex flex-col justify-center px-11 py-9 rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5"
-            >
-              <h3>15 dos Maiores<br />nomes do marketing<br />NO AGRO</h3>
-            </article>
-            <article
-              class="flex flex-col justify-center items-start self-start px-11 py-11 rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5"
-            >
-              <h3>15 VISÕES ÚNICAS</h3>
-            </article>
-            <article
-              class="flex flex-col justify-center items-start self-start px-11 py-11 rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30"
-            >
-              <h3>15 grandes resultados</h3>
-            </article>
-          </div>
+        <section class="self-center mt-28 w-full max-w-[1720px] max-md:mt-10 max-md:max-w-full">
+  <div
+    class="flex flex-wrap justify-center gap-5 text-3xl tracking-tighter leading-9 text-white uppercase max-md:max-w-full"
+  >
+    <article
+      class="flex flex-col justify-center items-start px-11 py-9 rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5"
+    >
+      <h3>15 marcas<br />icônicas DO<br />AGRO</h3>
+    </article>
+
+    <article
+      class="flex flex-col justify-center px-11 py-9 rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5"
+    >
+      <h3>15 dos Maiores<br />nomes do marketing<br />NO AGRO</h3>
+    </article>
+
+    <article
+      class="flex flex-col justify-center items-start self-start px-11 py-11 rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5"
+    >
+      <h3>15 VISÕES ÚNICAS</h3>
+    </article>
+
+    <article
+      class="flex flex-col justify-center items-start self-start px-11 py-11 rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5"
+    >
+      <h3>15 grandes resultados</h3>
+    </article>
+
+    <!-- NOVO BALÃO VAZIO -->
+    <article
+      class="flex flex-col justify-center items-center px-11 py-11 rounded-3xl border border-dashed bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5 min-w-[250px] min-h-[150px]"
+    >
+      <h3 class="text-white text-opacity-50">15 grandes resultados</h3>
+    </article>
+  </div>
+</section>
+
 
           <div
             class="flex flex-wrap gap-10 items-start mt-28 ml-44 max-w-full w-[1061px] max-md:mt-10"
@@ -337,6 +390,7 @@
         <section
           class="flex flex-col justify-center items-center px-20 py-32 mt-44 w-full border border-solid bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full"
         >
+        <section id="podcast">
           <div
             class="flex flex-col -mb-6 w-full max-w-[1510px] max-md:mb-2.5 max-md:max-w-full"
           >
@@ -369,7 +423,6 @@
                 </div>
               </div>
             </div>
-
             <div class="mt-28 max-md:mt-10 max-md:max-w-full">
               <div class="flex gap-5 max-md:flex-col">
                 <div class="w-6/12 max-md:ml-0 max-md:w-full">
@@ -478,7 +531,7 @@
               agronegócio e os demais setores da sociedade.
             </p>
           </div>
-
+          <section id="adimag">
           <div
             class="flex z-10 flex-col self-end mt-0 max-w-full text-lg font-medium w-[403px]"
           >
@@ -548,6 +601,7 @@
         </section>
 
         <!-- Join Section -->
+        <section id="associados">
         <section
           class="flex relative flex-col items-center mt-24 w-full max-md:mt-10 max-md:max-w-full"
         >
@@ -625,6 +679,7 @@
                   alt="Future of agro"
                 />
               </div>
+              <section id="manifesto">
               <div class="ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                 <div
                   class="grow mt-11 font-medium text-white max-md:mt-10 max-md:max-w-full"
@@ -675,6 +730,8 @@
           />
 
           <!-- Contact Form Section -->
+         <section id="faca-parte"></section>
+          <section id="siga-nos"></section>
           <div
             class="mt-32 ml-2.5 w-full max-w-[1539px] max-md:mt-10 max-md:max-w-full"
           >
@@ -828,16 +885,18 @@
                 class="flex shrink-0 mt-16 h-px bg-white max-md:mt-10 max-md:max-w-full"
               ></div>
 
-              <div
-                class="flex flex-wrap gap-5 justify-between mt-16 w-full text-xl font-medium leading-none text-center text-white max-md:mt-10 max-md:max-w-full"
-              >
-                <nav class="flex flex-wrap gap-10 my-auto max-md:max-w-full">
-                  <a href="#" class="grow">A ADIMAG</a>
-                  <a href="#">Podcast</a>
-                  <a href="#">Manifesto</a>
-                  <a href="#" class="basis-auto">Associados</a>
-                  <a href="#" class="basis-auto">Faça parte</a>
-                </nav>
+                 <div
+                  class="flex flex-wrap gap-5 justify-between mt-16 w-full text-xl font-medium leading-none text-center text-white max-md:mt-10 max-md:max-w-full"
+                >
+                  <nav class="flex flex-wrap gap-10 my-auto max-md:max-w-full">
+                    <a href="#adimag" class="grow">A ADIMAG</a>
+                    <a href="#podcast">Podcast</a>
+                    <a href="#manifesto">Manifesto</a>
+                    <a href="#associados" class="basis-auto">Associados</a>
+                    <a href="#faca-parte" class="basis-auto">Faça parte</a>
+                  </nav>
+               
+
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/c2f804bdb5b303e85907e1144877f0296af7389a?placeholderIfAbsent=true"
                   class="object-contain rounded-none aspect-[15.38] w-[604px] max-md:max-w-full"
