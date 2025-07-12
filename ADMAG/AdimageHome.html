@@ -331,11 +331,7 @@
     </article>
 
     <!-- NOVO BALÃO VAZIO -->
-    <article
-      class="flex flex-col justify-center items-center px-11 py-11 rounded-3xl border border-dashed bg-white bg-opacity-0 border-white border-opacity-30 max-md:px-5 min-w-[250px] min-h-[150px]"
-    >
-      <h3 class="text-white text-opacity-50">15 grandes resultados</h3>
-    </article>
+    
   </div>
 </section>
 
@@ -425,24 +421,42 @@
             </div>
             <div class="mt-28 max-md:mt-10 max-md:max-w-full">
               <div class="flex gap-5 max-md:flex-col">
-                <div class="w-6/12 max-md:ml-0 max-md:w-full">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/8ebb434c5b8c0ad90466437455e3e698e5bb82d9?placeholderIfAbsent=true"
-                    class="object-contain grow w-full rounded-3xl aspect-[1.74] max-md:mt-10 max-md:max-w-full"
-                    alt="Podcast hosts"
-                  />
-                </div>
+               <div class="w-6/12 max-md:ml-0 max-md:w-full">
+              <div class="relative pt-[56.25%] rounded-3xl overflow-hidden max-md:mt-10 max-md:max-w-full w-full">
+                <iframe
+                  class="absolute top-0 left-0 w-full h-full rounded-3xl"
+                  src="https://www.youtube.com/embed/cEb1jkxHrp4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
                 <div class="ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                   <div class="w-full max-md:mt-10 max-md:max-w-full">
                     <div class="max-md:max-w-full">
                       <div class="flex gap-5 max-md:flex-col">
-                        <div class="w-6/12 max-md:ml-0 max-md:w-full">
-                          <img
-                            src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/bcdf865ff3042bee89c504005fa96fa22b09473b?placeholderIfAbsent=true"
-                            class="object-contain grow w-full rounded-none aspect-[1.78] max-md:mt-9"
-                            alt="Antonio Prado"
-                          />
-                        </div>
+                        <div class="w-full lg:w-6/12">
+                                <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-3xl">
+                                  <iframe
+                                    class="absolute top-0 left-0 w-full h-full rounded-3xl"
+                                    src="https://www.youtube.com/embed/hyltrQ4NP0Q"
+                                    title="Vídeo 1"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                    onerror="document.getElementById('fallback1').style.display='block'; this.style.display='none';">
+                                  </iframe>
+                                </div>
+                                <div id="fallback1" style="display:none;" class="mt-4 text-center">
+                                  <a href="https://youtu.be/hyltrQ4NP0Q" target="_blank"
+                                    class="inline-block px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition">
+                                    Assistir no YouTube
+                                  </a>
+                                </div>
+                              </div>
                         <div class="ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                           <div
                             class="flex flex-col self-stretch my-auto max-md:mt-10"
@@ -466,12 +480,25 @@
                     >
                       <div class="flex gap-5 max-md:flex-col">
                         <div class="w-6/12 max-md:ml-0 max-md:w-full">
-                          <img
-                            src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/923d4c6ea3a61cf3112201b63e482d946a81d7e5?placeholderIfAbsent=true"
-                            class="object-contain grow w-full rounded-none aspect-[1.78] max-md:mt-9"
-                            alt="Renato Seraphim"
-                          />
-                        </div>
+  <div class="relative aspect-[1.78] w-full rounded-none overflow-hidden">
+    <iframe
+      class="absolute top-0 left-0 w-full h-full"
+      src="https://www.youtube.com/embed/eJ0tCVYbhM0"
+      title="Renato Seraphim"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      onerror="document.getElementById('fallback-video').style.display='block'; this.style.display='none';">
+    </iframe>
+  </div>
+  <div id="fallback-video" style="display:none;" class="mt-4 text-center">
+    <a href="https://youtu.be/eJ0tCVYbhM0" target="_blank"
+       class="inline-block px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition">
+      Assistir no YouTube
+    </a>
+  </div>
+</div>
+
                         <div class="ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                           <div class="flex flex-col mt-6 max-md:mt-10">
                             <h3
@@ -499,106 +526,132 @@
               >
                 Acompanhe nosso Podcast:
               </p>
-              <div
-                class="flex relative flex-col grow shrink-0 rounded-none basis-0 min-h-[39px] w-fit max-md:max-w-full"
-              >
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/7d70a1878d57f7230311344b359b4b90a2e5f69b?placeholderIfAbsent=true"
-                  class="object-cover absolute inset-0 size-full"
-                  alt="Podcast platforms"
-                />
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/7d70a1878d57f7230311344b359b4b90a2e5f69b?placeholderIfAbsent=true"
-                  class="object-contain w-full rounded-none aspect-[15.38] max-md:max-w-full"
-                  alt="Podcast platforms"
-                />
-              </div>
+              <div class="flex justify-between items-center gap-4 flex-wrap px-6 py-4 bg-black text-white">
+  
+ 
+  <!-- Ícones das redes -->
+  <div class="flex gap-4 items-center">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com" target="_blank" rel="noopener">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+           alt="LinkedIn" class="h-8 w-8 bg-white rounded-full p-1" />
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com" target="_blank" rel="noopener">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+           alt="Instagram" class="h-8 w-8 bg-pink-500 rounded-full p-1" />
+    </a>
+
+    <!-- Deezer -->
+    <a href="https://www.deezer.com" target="_blank" rel="noopener">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Deezer_logo.svg/120px-Deezer_logo.svg.png"
+           alt="Deezer" class="h-8 rounded-full bg-white px-3" />
+    </a>
+
+    <!-- Spotify -->
+    <a href="https://www.spotify.com" target="_blank" rel="noopener">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
+           alt="Spotify" class="h-8 w-8 bg-green-500 rounded-full p-1" />
+    </a>
+
+    <!-- YouTube -->
+    <a href="https://www.youtube.com" target="_blank" rel="noopener">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Youtube_logo.png"
+           alt="YouTube" class="h-8 bg-white rounded-full px-3" />
+    </a>
+  </div>
+</div>
+
             </div>
           </div>
         </section>
 
         <!-- About Section -->
         <section
-          class="flex relative z-10 flex-col self-center mt-48 w-full max-w-[1319px] max-md:mt-10 max-md:max-w-full"
-        >
-          <div class="flex flex-col max-w-full w-[660px]">
-            <h2 class="self-start text-2xl font-medium text-white">
-              Propósito
-            </h2>
-            <p class="mt-8 text-lg leading-9 text-white max-md:max-w-full">
-              A ADIMAG existe para fomentar ações inovadoras no agro, expandir a
-              percepção pública do setor e fortalecer as relações entre o
-              agronegócio e os demais setores da sociedade.
-            </p>
-          </div>
-          <section id="adimag">
-          <div
-            class="flex z-10 flex-col self-end mt-0 max-w-full text-lg font-medium w-[403px]"
-          >
-            <h2
-              class="text-7xl tracking-tighter text-white leading-[82px] max-md:text-4xl max-md:leading-[51px]"
-            >
-              Conheça<br />a<br />
-              <span style="font-weight: 700; color: rgba(255, 255, 255, 1)"
-                >ADIMAG</span
-              >
-            </h2>
-            <p class="mt-14 leading-9 text-white max-md:mt-10 max-md:mr-2">
-              Associação de Desenvolvimento, Inovação e Mercado do Agronegócio
-            </p>
-            <button
-              class="flex flex-col justify-center self-start px-9 py-3.5 mt-14 font-semibold text-center text-black bg-green-400 rounded-[133px] max-md:px-5 max-md:mt-10"
-            >
-              Faça parte
-            </button>
-          </div>
-        </section>
+  class="flex justify-between items-start gap-10 relative z-10 self-center mt-48 w-full max-w-[1319px] px-4 max-md:flex-col max-md:mt-10 max-md:max-w-full"
+>
+  <!-- PROPÓSITO -->
+  <div class="flex flex-col max-w-[660px]">
+    <h2 class="text-2xl font-medium text-white">Propósito</h2>
+    <p class="mt-8 text-lg leading-9 text-white">
+      A ADIMAG existe para fomentar ações inovadoras no agro, expandir a
+      percepção pública do setor e fortalecer as relações entre o
+      agronegócio e os demais setores da sociedade.
+    </p>
+  </div>
+
+  <!-- CONHEÇA A ADIMAG -->
+  <div id="adimag" class="max-w-xl text-right">
+    <h2 class="text-6xl font-light leading-tight tracking-tight text-white max-md:text-4xl max-md:leading-snug">
+      Conheça<br />
+      a
+      <span
+        class="font-extrabold bg-gradient-to-r from-lime-300 to-green-600 text-transparent bg-clip-text"
+        >ADIMAG</span
+      >
+    </h2>
+    <p class="mt-6 text-lg leading-relaxed text-white">
+      Associação de Desenvolvimento, Inovação<br />
+      e Mercado do Agronegócio
+    </p>
+    <a href="#siga-nos">
+      <button
+        class="mt-8 px-6 py-3 rounded-full bg-green-400 text-black font-semibold shadow hover:bg-green-300 transition"
+      >
+        Faça parte
+      </button>
+    </a>
+  </div>
+</section>
+
 
         <!-- Mission, Vision, Values -->
-        <section
-          class="flex relative flex-col self-center pb-20 mt-0 w-full max-w-[1520px] max-md:max-w-full"
-        >
-          <article
-            class="flex flex-col px-11 pt-9 pb-14 max-w-full rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 w-[410px] max-md:px-5"
-          >
-            <h3 class="self-start text-2xl font-medium text-white">Missão</h3>
-            <p class="mt-8 text-base leading-7 text-white">
-              Promover a integração, inovação e sustentabilidade no agro
-              brasileiro, unindo diversos segmentos e empresas para criar
-              soluções que impulsionem o setor.
-            </p>
-          </article>
+        <section class="flex flex-col items-center w-full px-4 py-16 bg-[#010a03]">
+  <!-- Linha de conteúdo com missão, visão e imagem -->
+  <div class="flex flex-wrap justify-between items-start w-full max-w-7xl gap-8">
+    <!-- Missão -->
+    <article class="flex flex-col px-6 py-8 w-[300px] bg-white/5 border border-white/20 rounded-2xl">
+      <h3 class="text-2xl font-semibold text-white mb-4">Missão</h3>
+      <p class="text-white text-sm leading-relaxed">
+        Promover a integração, inovação e sustentabilidade no agro brasileiro, unindo diversos segmentos e empresas para criar soluções que impulsionem o setor.
+      </p>
+    </article>
 
-          <article
-            class="flex z-10 flex-col self-center mt-0 max-w-full w-[308px] max-md:mt-0"
-          >
-            <h3 class="self-start text-2xl font-medium text-white">Visão</h3>
-            <p class="mt-8 text-base leading-7 text-white">
-              Ser um hub de inovação no Brasil ao oferecer espaços de diálogo e
-              colaboração para fortalecer o agro no mercado e na sociedade.
-            </p>
-          </article>
+    <!-- Visão -->
+    <article class="flex flex-col px-6 py-8 w-[300px] bg-white/5 border border-white/20 rounded-2xl">
+      <h3 class="text-2xl font-semibold text-white mb-4">Visão</h3>
+      <p class="text-white text-sm leading-relaxed">
+        Ser um hub de inovação no Brasil ao oferecer espaços de diálogo e colaboração para fortalecer o agro no mercado e na sociedade.
+      </p>
+    </article>
 
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/9c2c0bdf0c07651852dba0f48cb359fbffb1b39c?placeholderIfAbsent=true"
-            class="object-contain self-end mt-2.5 max-w-full rounded-none aspect-[1.56] w-[910px]"
-            alt="ADIMAG team"
-          />
+    <!-- Imagem com balões -->
+    <div class="relative w-[500px] rounded-2xl overflow-hidden shadow-xl">
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/9c2c0bdf0c07651852dba0f48cb359fbffb1b39c"
+        alt="ADIMAG"
+        class="w-full h-auto object-cover"
+      />
+      <!-- Balões simulados (exemplo de círculos clicáveis) -->
+      <div class="absolute top-[20%] left-[25%] bg-white text-black text-xs px-2 py-1 rounded-full shadow">💡 Inovação</div>
+      <div class="absolute top-[50%] left-[70%] bg-white text-black text-xs px-2 py-1 rounded-full shadow">🌱 Sustentabilidade</div>
+    </div>
+  </div>
 
-          <article
-            class="flex z-10 flex-col px-11 py-11 mt-0 ml-28 max-w-full rounded-3xl border border-solid bg-white bg-opacity-0 border-white border-opacity-30 w-[410px] max-md:px-5 max-md:mt-0 max-md:ml-2.5"
-          >
-            <h3 class="self-start text-2xl font-medium text-white">Valores</h3>
-            <p class="mt-8 text-base leading-7 text-white">
-              <span style="font-weight: 700">Integração:</span> entre diversos
-              segmentos do agro e a sociedade.<br /><br />
-              <span style="font-weight: 700">Inovação:</span> com propósito para
-              o agronegócio.<br />
-              <span style="font-weight: 700">Sustentabilidade:</span> para
-              garantir equilíbrio entre desenvolvimento e preservação.
-            </p>
-          </article>
-        </section>
+  <!-- Valores abaixo -->
+  <div class="mt-12 w-full max-w-7xl flex justify-center">
+    <article class="flex flex-col px-6 py-8 w-[300px] bg-white/5 border border-white/20 rounded-2xl">
+      <h3 class="text-2xl font-semibold text-white mb-4">Valores</h3>
+      <p class="text-white text-sm leading-relaxed">
+        <strong>Integração:</strong> entre diversos segmentos do agro e a sociedade.<br /><br />
+        <strong>Inovação:</strong> com propósito para o agronegócio.<br /><br />
+        <strong>Sustentabilidade:</strong> para garantir equilíbrio entre desenvolvimento e preservação.
+      </p>
+    </article>
+  </div>
+</section>
+
 
         <!-- Join Section -->
         <section id="associados">
@@ -723,11 +776,42 @@
           <h3 class="mt-10 ml-4 text-2xl font-medium text-center text-white">
             Associados
           </h3>
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/7f36114bafcb4aee8cfb7428b46c61d2/b5b7919143e548d0386ec45b858246fac642015b?placeholderIfAbsent=true"
-            class="object-contain mt-14 ml-6 w-full aspect-[10.31] max-w-[1571px] max-md:mt-10 max-md:max-w-full"
-            alt="Associates logos"
-          />
+          <section id="associados" class="py-16 bg-black">
+
+
+  <div class="relative w-full max-w-6xl mx-auto overflow-hidden">
+    <div id="carousel-track" class="flex gap-12 animate-slide scroll-smooth transition-all duration-700">
+      <img src="img/logo-citrosuco.png" alt="Citrosuco" class="h-16 grayscale opacity-80 hover:opacity-100 transition" />
+      <img src="img/logo-syngenta.png" alt="Syngenta" class="h-16 grayscale opacity-80 hover:opacity-100 transition" />
+      <img src="img/logo-cocamar.png" alt="Cocamar" class="h-16 grayscale opacity-80 hover:opacity-100 transition" />
+      <img src="img/logo-eurochem.png" alt="Eurochem" class="h-16 grayscale opacity-80 hover:opacity-100 transition" />
+      <img src="img/logo-holambra.png" alt="Holambra" class="h-16 grayscale opacity-80 hover:opacity-100 transition" />
+      <img src="img/logo-nutron.png" alt="Nutron" class="h-16 grayscale opacity-80 hover:opacity-100 transition" />
+    </div>
+
+    <!-- Botões -->
+    <button onclick="scrollCarousel(-1)" class="absolute left-0 top-1/2 -translate-y-1/2 bg-black bg-opacity-60 px-3 py-2 text-white">&lt;</button>
+    <button onclick="scrollCarousel(1)" class="absolute right-0 top-1/2 -translate-y-1/2 bg-black bg-opacity-60 px-3 py-2 text-white">&gt;</button>
+  </div>
+</section>
+<style>
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  #carousel-track {
+    animation: slide 30s linear infinite;
+  }
+</style>
+<script>
+  function scrollCarousel(direction) {
+    const track = document.getElementById('carousel-track');
+    const width = track.clientWidth / 3;
+    track.scrollBy({ left: width * direction, behavior: 'smooth' });
+  }
+</script>
+
 
           <!-- Contact Form Section -->
          <section id="faca-parte"></section>
