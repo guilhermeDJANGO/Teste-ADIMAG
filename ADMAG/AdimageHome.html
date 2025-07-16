@@ -812,82 +812,98 @@
 
           <!-- Contact Form Section -->
          <section id="faca-parte"></section>
-          <section id="siga-nos"></section>
-          <div
-            class="mt-32 ml-2.5 w-full max-w-[1539px] max-md:mt-10 max-md:max-w-full"
-          >
-            <div class="flex gap-5 max-md:flex-col">
-              <div class="w-[37%] max-md:ml-0 max-md:w-full">
-                <div
-                  class="flex flex-col text-white max-md:mt-10 max-md:max-w-full"
-                >
-                  <h2
-                    class="ml-4 text-7xl font-medium tracking-tighter leading-[79px] max-md:max-w-full max-md:text-4xl max-md:leading-[51px]"
-                  >
-                    Faça parte<br />
-                    <span
-                      style="font-weight: 700; color: rgba(255, 255, 255, 1)"
-                      >da ADIMAG</span
-                    >
-                  </h2>
-                  <p
-                    class="mt-20 mr-6 text-3xl leading-[51px] max-md:mt-10 max-md:mr-2.5 max-md:max-w-full"
-                  >
-                    Quer saber mais sobre a ADIMAG e integrar essa rede de
-                    inovação?<br />Deixe seu contato!
-                  </p>
-                  <button
-                    class="flex flex-col justify-center self-start px-16 py-3.5 mt-24 text-lg font-semibold text-center text-black whitespace-nowrap bg-green-400 rounded-[133px] max-md:px-5 max-md:mt-10"
-                  >
-                    Topo
-                  </button>
-                </div>
-              </div>
-              <div class="ml-5 w-[63%] max-md:ml-0 max-md:w-full">
-                <form
-                  class="flex flex-col grow items-start px-20 py-24 w-full text-xl bg-neutral-900 text-neutral-400 max-md:px-5 max-md:pb-24 max-md:mt-10 max-md:max-w-full"
-                >
-                  <label class="leading-none">Nome</label>
-                  <div
-                    class="shrink-0 self-stretch mt-4 h-px border border-solid bg-neutral-200 border-neutral-200 max-md:max-w-full"
-                  ></div>
+<section id="siga-nos"></section>
 
-                  <label class="mt-12 leading-none max-md:mt-10">Empresa</label>
-                  <div
-                    class="shrink-0 self-stretch mt-4 h-px border border-solid bg-neutral-200 border-neutral-200 max-md:max-w-full"
-                  ></div>
+<div class="mt-32 ml-2.5 w-full max-w-[1539px] max-md:mt-10 max-md:max-w-full">
+  <div class="flex gap-5 max-md:flex-col">
+    <!-- Coluna esquerda -->
+    <div class="w-[37%] max-md:ml-0 max-md:w-full">
+      <div class="flex flex-col text-white max-md:mt-10 max-md:max-w-full">
+        <h2 class="ml-4 text-7xl font-medium tracking-tighter leading-[79px] max-md:max-w-full max-md:text-4xl max-md:leading-[51px]">
+          Faça parte<br />
+          <span style="font-weight: 700;">da ADIMAG</span>
+        </h2>
+        <p class="mt-20 mr-6 text-3xl leading-[51px] max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+          Quer saber mais sobre a ADIMAG e integrar essa rede de inovação?<br />
+          Deixe seu contato!
+        </p>
+        <a href="#topo">
+          <button class="flex flex-col justify-center self-start px-16 py-3.5 mt-24 text-lg font-semibold text-center text-black whitespace-nowrap bg-green-400 rounded-[133px] max-md:px-5 max-md:mt-10">
+            Topo
+          </button>
+        </a>
+      </div>
+    </div>
 
-                  <label class="mt-12 leading-none max-md:mt-10"
-                    >Segmento</label
-                  >
-                  <div
-                    class="shrink-0 self-stretch mt-4 h-px border border-solid bg-neutral-200 border-neutral-200 max-md:max-w-full"
-                  ></div>
+    <!-- Coluna direita com formulário -->
+    <div class="ml-5 w-[63%] max-md:ml-0 max-md:w-full">
+      <form
+        action="#"
+        method="POST"
+        class="flex flex-col grow items-start px-20 py-24 w-full text-xl bg-neutral-900 text-neutral-400 max-md:px-5 max-md:pb-24 max-md:mt-10 max-md:max-w-full"
+        style="min-height: 540px;"
+      >
+        <!-- Campo Nome -->
+        <label for="nome" class="leading-none">Nome</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          required
+          class="w-full mt-4 border-b border-neutral-200 bg-transparent text-white focus:outline-none pb-2"
+        />
 
-                  <label class="mt-12 leading-none max-md:mt-10"
-                    >WhatsApp</label
-                  >
-                  <div
-                    class="shrink-0 self-stretch mt-4 h-px border border-solid bg-neutral-200 border-neutral-200 max-md:max-w-full"
-                  ></div>
+        <!-- Campo Empresa -->
+        <label for="empresa" class="mt-12 leading-none max-md:mt-10">Empresa</label>
+        <input
+          type="text"
+          id="empresa"
+          name="empresa"
+          required
+          class="w-full mt-4 border-b border-neutral-200 bg-transparent text-white focus:outline-none pb-2"
+        />
 
-                  <label class="mt-12 leading-none max-md:mt-10"
-                    >E-mail corporativo</label
-                  >
-                  <div
-                    class="shrink-0 self-stretch mt-4 h-px border border-solid bg-neutral-200 border-neutral-200 max-md:max-w-full"
-                  ></div>
+        <!-- Campo Segmento -->
+        <label for="segmento" class="mt-12 leading-none max-md:mt-10">Segmento</label>
+        <input
+          type="text"
+          id="segmento"
+          name="segmento"
+          class="w-full mt-4 border-b border-neutral-200 bg-transparent text-white focus:outline-none pb-2"
+        />
 
-                  <button
-                    type="submit"
-                    class="flex flex-col justify-center px-16 py-3.5 mt-16 text-lg text-center text-white whitespace-nowrap border border-solid bg-white bg-opacity-0 border-white border-opacity-30 rounded-[133px] max-md:px-5 max-md:mt-10"
-                  >
-                    Enviar
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
+        <!-- Campo WhatsApp -->
+        <label for="whatsapp" class="mt-12 leading-none max-md:mt-10">WhatsApp</label>
+        <input
+          type="tel"
+          id="whatsapp"
+          name="whatsapp"
+          required
+          class="w-full mt-4 border-b border-neutral-200 bg-transparent text-white focus:outline-none pb-2"
+        />
+
+        <!-- Campo E-mail -->
+        <label for="email" class="mt-12 leading-none max-md:mt-10">E-mail corporativo</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          class="w-full mt-4 border-b border-neutral-200 bg-transparent text-white focus:outline-none pb-2"
+        />
+
+        <!-- Botão Enviar -->
+        <button
+          type="submit"
+          class="flex flex-col justify-center px-16 py-3.5 mt-16 text-lg text-center text-white whitespace-nowrap border border-solid bg-white bg-opacity-0 border-white border-opacity-30 rounded-[133px] max-md:px-5 max-md:mt-10 hover:bg-white hover:text-black transition"
+        >
+          Enviar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
 
           <!-- Social Media Section -->
           <h2
